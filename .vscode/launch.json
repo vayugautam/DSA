@@ -1,0 +1,567 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "A_Adjacent_Digit_Sums",
+            "request": "launch",
+            "mainClass": "A_Adjacent_Digit_Sums",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Alternating_Sum_of_Numbers",
+            "request": "launch",
+            "mainClass": "A_Alternating_Sum_of_Numbers",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Ambitious_Kid",
+            "request": "launch",
+            "mainClass": "A_Ambitious_Kid",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Array_Coloring",
+            "request": "launch",
+            "mainClass": "A_Array_Coloring",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Bit",
+            "request": "launch",
+            "mainClass": "A_Bit",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Brogramming_Contest",
+            "request": "launch",
+            "mainClass": "A_Brogramming_Contest",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Buttons",
+            "request": "launch",
+            "mainClass": "A_Buttons",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Coin_Transformation",
+            "request": "launch",
+            "mainClass": "A_Coin_Transformation",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Cover_in_Water",
+            "request": "launch",
+            "mainClass": "A_Cover_in_Water",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Desorting",
+            "request": "launch",
+            "mainClass": "A_Desorting",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Don_t_Try_to_Count",
+            "request": "launch",
+            "mainClass": "A_Don_t_Try_to_Count",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Doremy_s_Paint_3",
+            "request": "launch",
+            "mainClass": "A_Doremy_s_Paint_3",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Draw_a_Square",
+            "request": "launch",
+            "mainClass": "A_Draw_a_Square",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Easy_Problem",
+            "request": "launch",
+            "mainClass": "A_Easy_Problem",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Fibonacciness",
+            "request": "launch",
+            "mainClass": "A_Fibonacciness",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Final_Verdict",
+            "request": "launch",
+            "mainClass": "A_Final_Verdict",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Game_with_Integers",
+            "request": "launch",
+            "mainClass": "A_Game_with_Integers",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Goals_of_Victory",
+            "request": "launch",
+            "mainClass": "A_Goals_of_Victory",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Halloumi_Boxes",
+            "request": "launch",
+            "mainClass": "A_Halloumi_Boxes",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_How_Much_Does_Daytona_Cost",
+            "request": "launch",
+            "mainClass": "A_How_Much_Does_Daytona_Cost",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Jagged_Swaps",
+            "request": "launch",
+            "mainClass": "A_Jagged_Swaps",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Line_Breaks",
+            "request": "launch",
+            "mainClass": "A_Line_Breaks",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Line_Trip",
+            "request": "launch",
+            "mainClass": "A_Line_Trip",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Milya_and_Two_Arrays",
+            "request": "launch",
+            "mainClass": "A_Milya_and_Two_Arrays",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Minimal_Coprime",
+            "request": "launch",
+            "mainClass": "A_Minimal_Coprime",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_New_World_New_Me_New_Array",
+            "request": "launch",
+            "mainClass": "A_New_World_New_Me_New_Array",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Presents",
+            "request": "launch",
+            "mainClass": "A_Presents",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Quintomania",
+            "request": "launch",
+            "mainClass": "A_Quintomania",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Skibidus_and_Amog_u",
+            "request": "launch",
+            "mainClass": "A_Skibidus_and_Amog_u",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_United_We_Stand",
+            "request": "launch",
+            "mainClass": "A_United_We_Stand",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Watermelon",
+            "request": "launch",
+            "mainClass": "A_Watermelon",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "A_Way_Too_Long_Words",
+            "request": "launch",
+            "mainClass": "A_Way_Too_Long_Words",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "ArrayLinearSearch",
+            "request": "launch",
+            "mainClass": "ArrayLinearSearch",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "B_Having_Been_a_Treasurer_in_the_Past_I_Help_Goblins_Deceive",
+            "request": "launch",
+            "mainClass": "B_Having_Been_a_Treasurer_in_the_Past_I_Help_Goblins_Deceive",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "B_Normal_Problem",
+            "request": "launch",
+            "mainClass": "B_Normal_Problem",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "B_Sequence_Game",
+            "request": "launch",
+            "mainClass": "B_Sequence_Game",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "B_Subsequence_Update",
+            "request": "launch",
+            "mainClass": "B_Subsequence_Update",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "B_The_Third_Side",
+            "request": "launch",
+            "mainClass": "B_The_Third_Side",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "B_Variety_is_Discouraged",
+            "request": "launch",
+            "mainClass": "B_Variety_is_Discouraged",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "B_Vicious_Labyrinth",
+            "request": "launch",
+            "mainClass": "B_Vicious_Labyrinth",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "BinaryConcatenation",
+            "request": "launch",
+            "mainClass": "BinaryConcatenation",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "C_Creating_Keys_for_StORages_Has_Become_My_Main_Skill",
+            "request": "launch",
+            "mainClass": "C_Creating_Keys_for_StORages_Has_Become_My_Main_Skill",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "C_Remove_the_Ends",
+            "request": "launch",
+            "mainClass": "C_Remove_the_Ends",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "C_Target_Practice",
+            "request": "launch",
+            "mainClass": "C_Target_Practice",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "C_XOR_and_Triangle",
+            "request": "launch",
+            "mainClass": "C_XOR_and_Triangle",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "DoubleLL",
+            "request": "launch",
+            "mainClass": "DoubleLL",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "Question1",
+            "request": "launch",
+            "mainClass": "Question1",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "Question2",
+            "request": "launch",
+            "mainClass": "Question2",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "Question3",
+            "request": "launch",
+            "mainClass": "Question3",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "Question5",
+            "request": "launch",
+            "mainClass": "Question5",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "TileCombinations",
+            "request": "launch",
+            "mainClass": "TileCombinations",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "TreeConstructor",
+            "request": "launch",
+            "mainClass": "TreeConstructor",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "backtrackingonarrays",
+            "request": "launch",
+            "mainClass": "backtrackingonarrays",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "closestmultipleof10",
+            "request": "launch",
+            "mainClass": "closestmultipleof10",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "findpermutations",
+            "request": "launch",
+            "mainClass": "findpermutations",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "gridways",
+            "request": "launch",
+            "mainClass": "gridways",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "inheritance",
+            "request": "launch",
+            "mainClass": "inheritance",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "mergesort",
+            "request": "launch",
+            "mainClass": "mergesort",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "nqueens1",
+            "request": "launch",
+            "mainClass": "nqueens1",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem1",
+            "request": "launch",
+            "mainClass": "problem1",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem11tilingproblem",
+            "request": "launch",
+            "mainClass": "problem11tilingproblem",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem12",
+            "request": "launch",
+            "mainClass": "problem12",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem13",
+            "request": "launch",
+            "mainClass": "problem13",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem14",
+            "request": "launch",
+            "mainClass": "problem14",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem2",
+            "request": "launch",
+            "mainClass": "problem2",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem3",
+            "request": "launch",
+            "mainClass": "problem3",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem4",
+            "request": "launch",
+            "mainClass": "problem4",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem5",
+            "request": "launch",
+            "mainClass": "problem5",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem6",
+            "request": "launch",
+            "mainClass": "problem6",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem7",
+            "request": "launch",
+            "mainClass": "problem7",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem8",
+            "request": "launch",
+            "mainClass": "problem8",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem9",
+            "request": "launch",
+            "mainClass": "problem9",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "problem9optimized",
+            "request": "launch",
+            "mainClass": "problem9optimized",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "quicksort",
+            "request": "launch",
+            "mainClass": "quicksort",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "searchinrotatedsortedarray",
+            "request": "launch",
+            "mainClass": "searchinrotatedsortedarray",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "subsets",
+            "request": "launch",
+            "mainClass": "subsets",
+            "projectName": "my java folder_ca33817b"
+        },
+        {
+            "type": "java",
+            "name": "sudoku",
+            "request": "launch",
+            "mainClass": "sudoku",
+            "projectName": "my java folder_ca33817b"
+        }
+    ]
+}

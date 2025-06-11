@@ -1,0 +1,96 @@
+import java.io.*;
+import java.util.*;
+
+public class ConnectingPoints {
+    static class Edge implements Comparable<Edge> {
+        int u, v, cost;
+
+        Edge(int u, int v, int cost) {
+            this.u = u;
+            this.v = v;
+            this.cost = cost;
+        }
+
+        public int compareTo(Edge other) {
+            return Integer.compare(this.cost, other.cost);
+        }
+    }
+
+    static int find(int[] parent, int x) {
+        if (parent[x] != x) {
+            parent[x] = find(parent, parent[x]);
+        }
+        return parent[x];
+    }
+
+    static void union(int[] parent, int[] rank, int x, int y) {
+        int rootX = find(parent, x);
+        int rootY = find(parent, y);
+
+        if (rank[rootX] < rank[rootY]) {
+            parent[rootX] = rootY;
+        } else if (rank[rootX] > rank[rootY]) {
+            parent[rootY] = rootX;
+        } else {
+            parent[rootY] = rootX;
+            rank[rootX]++;
+        }
+    }
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        int n = Integer.parseInt(st.nextToken());
+        int[] x = new int[n];
+        int[] a = new int[n];
+
+        st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < n; i++) {
+            x[i] = Integer.parseInt(st.nextToken());
+        }
+
+        st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < n; i++) {
+            a[i] = Integer.parseInt(st.nextToken());
+        }
+
+        List<Edge> edges = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                int cost = Math.min(a[i], a[j]) * Math.abs(x[j] - x[i]);
+                edges.add(new Edge(i, j, cost));
+            }
+        }
+
+        Collections.sort(edges);
+
+        int[] parent = new int[n];
+        int[] rank = new int[n];
+        for (int i = 0; i < n; i++) {
+            parent[i] = i;
+            rank[i] = 0;
+        }
+
+        long totalCost = 0;
+        int edgeCount = 0;
+        for (Edge edge : edges) {
+            int u = edge.u;
+            int v = edge.v;
+            int cost = edge.cost;
+
+            if (find(parent, u) != find(parent, v)) {
+                union(parent, rank, u, v);
+                totalCost += cost;
+                edgeCount++;
+                if (edgeCount == n - 1) {
+                    break;
+                }
+            }
+        }
+
+        System.out.println(totalCost);
+    }
+}
+
+
