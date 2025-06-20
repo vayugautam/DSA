@@ -1,6 +1,4 @@
 public class StringBuilder {
-
-    
     //time complexity = O(n^2)
     public static void main(String[] args) {
         String sb = "";
@@ -9,12 +7,6 @@ public class StringBuilder {
         }
         System.out.println(sb);
     }
-
-    
-
-    
-
-    
 }
 
     
