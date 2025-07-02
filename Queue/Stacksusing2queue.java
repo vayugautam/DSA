@@ -1,3 +1,4 @@
+import java.util.*;
 public class Stacksusing2queue {
     static class Stack{
         static Queue<Integer> q1 = new LinkedList<>();

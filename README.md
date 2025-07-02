@@ -1,6 +1,6 @@
 # 📘 DSA Practice Repository
 
-## 📂 Repository Structure
+## 📂 Repository Structure (Clickable)
 
 - [Arrays](./Arrays/)
 - [2D Arrays](./2D%20Arrays/)
@@ -19,5 +19,6 @@
 - [Sorting](./Sorting/)
 - [Stack](./Stack/)
 - [Strings](./Strings/)
+
 
 > This repository is structured topic-wise to make it easy to navigate and track progress during DSA preparation.
