@@ -1,9 +1,9 @@
 public class circularQusingArray {
     static class Queue {
-        static int arr[];
-        static int size;
-        static int front;
-        static int rear;
+        int arr[];
+        int size;
+        int front;
+        int rear;
 
         Queue(int n) {
             arr = new int[n];
@@ -12,15 +12,15 @@ public class circularQusingArray {
             rear = -1;
         }
 
-        public static boolean isEmpty() {
-            return front ==-1 && rear==-1;
+        public boolean isEmpty() {
+            return front == -1 && rear == -1;
         }
-        public static boolean isFull() {
+        public boolean isFull() {
             return (rear + 1) % size == front;
         }
 
         // add
-        public static void add(int data) {
+        public void add(int data) {
             if (isFull()) {
                 System.out.println("Queue is full");
                 return;
@@ -34,24 +34,25 @@ public class circularQusingArray {
         }
 
         // remove
-        public static int remove() {
+        public int remove() {
             if (isEmpty()) {
                 System.out.println("Empty queue");
                 return -1;
             }
             int frontElement = arr[front];
-            front = (front + 1) % size;
             // If removing the last element
-            if (rear == front) {
+            if (front == rear) {
                 // Reset the queue
                 front = -1;
-                rear = -1; 
+                rear = -1;
+            } else {
+                front = (front + 1) % size;
             }
             return frontElement;
         }
 
         // peek
-        public static int peek() {
+        public int peek() {
             if (isEmpty()) {
                 System.out.println("Empty queue");
                 return -1;
