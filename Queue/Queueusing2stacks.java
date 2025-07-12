@@ -35,13 +35,12 @@ public class Queueusing2stacks {
         }
     }
     public static void main(String[] args) {
-        Queue q = new Queue();
-        q.add(1);
-        q.add(2);
-        q.add(3);
-        while (!q.isEmpty()) {
-            System.out.println(q.peek());
-            q.remove();
+        Queue.add(1);
+        Queue.add(2);
+        Queue.add(3);
+        while (!Queue.isEmpty()) {
+            System.out.println(Queue.peek());
+            Queue.remove();
         }
     }
 }
