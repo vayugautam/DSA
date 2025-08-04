@@ -1,22 +1,24 @@
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class A_Coins {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int t = Integer.parseInt(br.readLine());
+        StringBuilder resultBuilder = new StringBuilder();
+
         while (t-- > 0) {
-            long n = sc.nextLong();
-            long k = sc.nextLong();
-            boolean possible = false;
-            for (long y = n / k; y >= Math.max(0, n / k - 1); y--) {
-                long remaining = n - k * y;
-                if (remaining >= 0 && remaining % 2 == 0) {
-                    possible = true;
-                    break;
-                }
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            long n = Long.parseLong(st.nextToken());
+            long k = Long.parseLong(st.nextToken());
+                resultBuilder.append("NO\n");
+            } else {
+                resultBuilder.append("YES\n");
             }
-            System.out.println(possible ? "YES" : "NO");
         }
+        System.out.print(resultBuilder);
     }
 }
