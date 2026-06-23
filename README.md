@@ -22,3 +22,19 @@
 
 
 > This repository is structured topic-wise to make it easy to navigate and track progress during DSA preparation.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0015-3sum](https://github.com/vayugautam/DSA/tree/master/0015-3sum) |
+## Two Pointers
+|  |
+| ------- |
+| [0015-3sum](https://github.com/vayugautam/DSA/tree/master/0015-3sum) |
+## Sorting
+|  |
+| ------- |
+| [0015-3sum](https://github.com/vayugautam/DSA/tree/master/0015-3sum) |
+<!---LeetCode Topics End-->
