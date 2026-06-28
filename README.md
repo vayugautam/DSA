@@ -33,6 +33,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/vayugautam/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/vayugautam/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/vayugautam/DSA/tree/master/0904-fruit-into-baskets) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/vayugautam/DSA/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/vayugautam/DSA/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/vayugautam/DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/vayugautam/DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -46,6 +47,7 @@
 | ------- |
 | [0015-3sum](https://github.com/vayugautam/DSA/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/vayugautam/DSA/tree/master/0016-3sum-closest) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/vayugautam/DSA/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 ## Math
 |  |
 | ------- |
@@ -108,4 +110,8 @@
 |  |
 | ------- |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/vayugautam/DSA/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+## Greedy
+|  |
+| ------- |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/vayugautam/DSA/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 <!---LeetCode Topics End-->
